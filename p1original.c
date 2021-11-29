@@ -24,7 +24,7 @@ float add(float x,float y)
   s=x+y;
   return s;
 }
-void output(float add)
+void output(float sum)
 {
-  printf("the sum of the two number :%0.2f",add);
+  printf("the sum of the two number :%0.2f",sum);
 }
