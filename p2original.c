@@ -1,13 +1,13 @@
 #include<stdio.h>
-float sum(float x,float y);
+float add(float x,float y);
 float input();
 void output(float add);
 int main()
 {
   float a,b,sum;
-  a=inmput();
+  a=input();
   b=input();
-  sum=sum(a,b);
+  sum=add(a,b);
   output(sum);
   return 0;
   }
@@ -18,4 +18,13 @@ int main()
     scanf("%f",&A);
     return A;
   }
-  float sum
+  float add(float x,float y)
+  {
+    float s;
+    s=x+y;
+    return s;
+  }
+  void output(float add)
+  {
+    printf("the sum of the two given number is:%0.2f",add);
+  }
