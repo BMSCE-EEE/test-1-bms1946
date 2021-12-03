@@ -5,7 +5,7 @@ void output(int *a,int *b,int *sum);
 int main()
 {
   int A,B,sum;
-  input(&A,&B);
+  input(&A,&B); 
   add(&A,&B,&sum);
   output(&A,&B,&sum);
   return 0;
